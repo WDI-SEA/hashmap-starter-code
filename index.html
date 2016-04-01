@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hashmaps and bookshelves</title>
+    <script type="text/javascript" src="bookshelf.js"></script>
+    <script type="text/javascript">
+    var book1 = new Book();
+    book1.author = "John Adams";
+    book1.title = "I am a dead president";
+
+    var book2 = new Book();
+    book2.author = "Jane Austen";
+    book2.title = "Propriety and Proprioception";
+
+    var book3 = new Book();
+    book3.author = "Bob Abramson";
+    book3.title = "I wrote a book, I guess?";
+
+    var book4 = new Book();
+    book4.author = "Joe Bob";
+    book4.title = "Joe Bob eats everything";
+
+    var bookshelf = new HashMap();
+    bookshelf.put(book1.author, book1);
+    bookshelf.put(book2.author, book2);
+    bookshelf.put(book3.author, book3);
+    bookshelf.put(book4.author, book4);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
